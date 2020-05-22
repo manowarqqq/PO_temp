@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class CloudSearchResultPage  extends  AbstractPage {
 
 
-    @FindBy(xpath = "//div[@class='gs-title']//a[contains(text(),'Calculator')]")
+    @FindBy(xpath = "//div[@class='gs-title']//b[contains(text(),'Calculator')]")
     private WebElement GoogleCloudPlatformPricingCalculatorLink;
 
     protected CloudSearchResultPage(WebDriver driver) {

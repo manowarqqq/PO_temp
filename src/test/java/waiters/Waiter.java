@@ -14,5 +14,8 @@ public class Waiter {
         return new WebDriverWait(driver,time).until(CustomConditions.jQueryAJAXsCompleted());
     }
 
+    public static WebDriverWait waitTimeout(WebDriver driver,int timeout) {
+        return  new WebDriverWait(driver,timeout);
+    }
 
 }
